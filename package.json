@@ -1,0 +1,15 @@
+{
+  "name": "typescript-reference",
+  "version": "1.0.0",
+  "description": "typescriptリファレンスのコード",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "azu",
+  "license": "MIT"
+}
