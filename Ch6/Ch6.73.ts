@@ -8,6 +8,7 @@ class Person {
     }
 
     static createPerson(firstName:string, lastName:string, age:number) {
+        // `new this` が可能
         this._lastCreated = new this(firstName, lastName, age);
         return this._lastCreated;
     }
